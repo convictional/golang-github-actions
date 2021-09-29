@@ -11,7 +11,7 @@ Before requesting reviews, check all boxes below.
 
 - [ ] I have left self-review comments to help other reviewers.
 - [ ] My PR is as small as possible and focused on a single task.md#api-checklist).
-- [ ] I have considered and implemented [security best practices](https://drive.google.com/file/d/1Acm77EACxd3LJthtbqQUIu5Y_zrsoJyY/view?usp=sharing)
+- [ ] I have considered and implemented security best practices
 - [ ] If tagging multiple reviewers, I have made specific asks.
 
 ## Manual testing
