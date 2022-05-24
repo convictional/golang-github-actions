@@ -11,7 +11,7 @@ RUN apt-get update && \
 	go install honnef.co/go/tools/cmd/staticcheck@latest
 
 # Manually install a patched version of gosec
-RUN git clone https://github.com/convictional/gosec && cd gosec && go install . && cd ..
+RUN git clone https://github.com/convictional/gosec && cd gosec && go install ./cmd/gosec/ && cd ..
 
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
